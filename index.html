@@ -18,6 +18,12 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/aos.css" />
     <link rel="stylesheet" href="css/style.css" />
+
+    <script>
+      document.addEventListener("contextmenu", function (e) {
+        e.preventDefault();
+      });
+    </script>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
     <div class="site-wrap" id="home-section">
@@ -163,6 +169,11 @@
       </div>
 
       <div class="comparison" id="pricing_section">
+        <div class="price-try">
+          Businesses in India will be billed in &#8377;. Businesses outside
+          India will be billed in US&dollar;
+        </div>
+        <p></p>
         <table>
           <thead>
             <tr>
@@ -456,10 +467,27 @@
 
             <tr>
               <td>&nbsp;</td>
-              <td colspan="3">Credit/Debit Card Rates</td>
+              <td colspan="3">
+                <p>Credit/Debit Card Rates (for businesses in India)</p>
+              </td>
             </tr>
             <tr>
-              <td>Credit/Debit Card Rates</td>
+              <td>Credit/Debit Card Rates (for businesses in India)</td>
+              <td>3%</td>
+              <td>3%</td>
+              <td>2.9%</td>
+            </tr>
+
+            <tr>
+              <td>&nbsp;</td>
+              <td colspan="3">
+                Credit/Debit Card Rates (for businesses outside India)
+              </td>
+            </tr>
+            <tr class="compare-row">
+              <td>
+                Credit/Debit Card Rates (for businesses outside India)
+              </td>
               <td>3% + $0.30</td>
               <td>3% + $0.30</td>
               <td>2.9% + $0.30</td>
@@ -469,7 +497,7 @@
               <td>&nbsp;</td>
               <td colspan="3">Netbanking/UPI</td>
             </tr>
-            <tr class="compare-row">
+            <tr>
               <td>Netbanking/UPI</td>
               <td>2.5%</td>
               <td>2.5%</td>
@@ -480,7 +508,7 @@
               <td>&nbsp;</td>
               <td colspan="3">International Transactions/Cards Fee</td>
             </tr>
-            <tr>
+            <tr class="compare-row">
               <td>International Transactions/Cards Fee</td>
               <td>additional 3%</td>
               <td>additional 2.9%</td>
@@ -491,7 +519,7 @@
               <td>&nbsp;</td>
               <td colspan="3"><b>Fulfillment</b></td>
             </tr>
-            <tr class="compare-row">
+            <tr>
               <td><b>Fulfillment</b></td>
               <td></td>
               <td></td>
@@ -502,7 +530,7 @@
               <td>&nbsp;</td>
               <td colspan="3">Calculate Shipping Rates</td>
             </tr>
-            <tr>
+            <tr class="compare-row">
               <td>Calculate Shipping Rates</td>
               <td><span class="tickgreen">✔</span></td>
               <td><span class="tickgreen">✔</span></td>
@@ -513,7 +541,7 @@
               <td>&nbsp;</td>
               <td colspan="3">Print Shipping Label</td>
             </tr>
-            <tr class="compare-row">
+            <tr>
               <td>Print Shipping Label</td>
               <td><span class="tickgreen">✔</span></td>
               <td><span class="tickgreen">✔</span></td>
@@ -524,7 +552,7 @@
               <td>&nbsp;</td>
               <td colspan="3">Discounted Shipping Rates</td>
             </tr>
-            <tr>
+            <tr class="compare-row">
               <td>Discounted Shipping Rates</td>
               <td></td>
               <td></td>
@@ -535,7 +563,7 @@
               <td>&nbsp;</td>
               <td colspan="3"><b>Reports</b></td>
             </tr>
-            <tr class="compare-row">
+            <tr>
               <td><b>Reports</b></td>
               <td></td>
               <td></td>
@@ -548,7 +576,7 @@
                 Basic (Revenue, Inventory, Geographic Segmentation)
               </td>
             </tr>
-            <tr>
+            <tr class="compare-row">
               <td>Basic (Revenue, Inventory, Geographic Segmentation)</td>
               <td><span class="tickgreen">✔</span></td>
               <td><span class="tickgreen">✔</span></td>
@@ -559,7 +587,7 @@
               <td>&nbsp;</td>
               <td colspan="3">Business Intelligence</td>
             </tr>
-            <tr class="compare-row">
+            <tr>
               <td>Business Intelligence</td>
               <td></td>
               <td><span class="tickgreen">✔</span></td>
@@ -570,7 +598,7 @@
               <td>&nbsp;</td>
               <td colspan="3">Custom Report Builder</td>
             </tr>
-            <tr>
+            <tr class="compare-row">
               <td>Custom Report Builder</td>
               <td></td>
               <td></td>
@@ -603,7 +631,7 @@
         <div class="slide-one-item home-slider owl-carousel">
           <div>
             <div class="testimonial">
-              <figure
+              <!--<figure
                 class="mb-4 d-block align-items-center justify-content-center"
               >
                 <div>
@@ -613,7 +641,7 @@
                     class="w-100 img-fluid mb-3 shadow"
                   />
                 </div>
-              </figure>
+              </figure>-->
               <blockquote class="mb-3">
                 <p>
                   &ldquo;It's been so easy to sell on my online store and other
@@ -625,7 +653,7 @@
           </div>
           <div>
             <div class="testimonial">
-              <figure
+              <!--<figure
                 class="mb-4 d-block align-items-center justify-content-center"
               >
                 <div>
@@ -635,8 +663,7 @@
                     class="w-100 img-fluid mb-3 shadow"
                   />
                 </div>
-              </figure>
-
+              </figure>-->
               <blockquote class="mb-3">
                 <p>
                   &ldquo;Easily set up our online store and now selling to
@@ -650,7 +677,7 @@
 
           <div>
             <div class="testimonial">
-              <figure
+              <!--<figure
                 class="mb-4 d-block align-items-center justify-content-center"
               >
                 <div>
@@ -660,7 +687,7 @@
                     class="w-100 img-fluid mb-3 shadow"
                   />
                 </div>
-              </figure>
+              </figure>-->
               <blockquote class="mb-3">
                 <p>
                   &ldquo;Not only have we doubled our revenue, we're selling
@@ -674,7 +701,7 @@
 
           <div>
             <div class="testimonial">
-              <figure
+              <!--<figure
                 class="mb-4 d-block align-items-center justify-content-center"
               >
                 <div>
@@ -684,7 +711,7 @@
                     class="w-100 img-fluid mb-3 shadow"
                   />
                 </div>
-              </figure>
+              </figure>-->
               <blockquote class="mb-3">
                 <p>
                   &ldquo;Technical barriers were removed, our launch was made a
