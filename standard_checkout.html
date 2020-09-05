@@ -35,6 +35,20 @@
         e.preventDefault();
       });
     </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-177243564-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-177243564-1");
+    </script>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
     <div class="site-wrap" id="home-section">
@@ -119,7 +133,17 @@
         <div class="slide-one-item home-slider owl-carousel">
           <div>
             <div class="testimonial">
- 
+              <figure
+                class="mb-4 d-block align-items-center justify-content-center"
+              >
+                <div>
+                  <img
+                    src="images/person_1.jpg"
+                    alt="Image"
+                    class="w-100 img-fluid mb-3 shadow"
+                  />
+                </div>
+              </figure>
               <blockquote class="mb-3">
                 <p>
                   &ldquo;It's been so easy to sell on my online store and other
